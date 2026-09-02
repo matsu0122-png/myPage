@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO基本設定：ここを自分の情報に変更 -->
+  <title>松山 慎 | Portfolio - 低レイヤ・クラウド・Webエンジニア</title>
+  <meta name="description" content="京都産業大学大学院 先端情報学研究科でディペンダブルシステムを研究する大学院生、松山慎のポートフォリオサイトです。クラウドインフラ、OS・仮想化、Web開発への興味と制作物を紹介しています。">
+  <meta name="author" content="松山 慎">
+
+  <!-- OGP設定：ここを自分の情報に変更 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="松山 慎 | Portfolio">
+  <meta property="og:description" content="低レイヤ・クラウド・Web開発に興味を持つ大学院生のポートフォリオサイトです。">
+  <meta property="og:image" content="https://example.com/ogp-image.png">
+  <meta property="og:url" content="https://example.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== ヘッダー ==================== -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#top" class="logo">松山 慎 - Matsuyama Shin</a>
+
+      <!-- ハンバーガーメニューボタン（スマートフォン用） -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#career" class="nav-link">Career</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ==================== Heroセクション ==================== -->
+    <section class="hero" aria-label="トップ">
+      <div class="hero-content">
+        <h1 class="hero-title">クラウド、仮想化、低レイヤ、Web開発を学ぶ大学院生です。</h1>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Aboutセクションへスクロール">
+        <svg class="scroll-down-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==================== Aboutセクション ==================== -->
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+          <!-- プロフィール写真エリア：ここを自分の写真に変更 -->
+          <div class="about-photo">
+            <img src="img/IMG_7492.jpg" alt="松山慎のプロフィール写真" width="280" height="280">
+          </div>
+          <div class="about-text">
+            <p>京都産業大学大学院で、コンピュータシステムの信頼性や仮想化技術について研究しています。表面的に動かすだけでなく、OSや仮想化基盤など、システムの内側で何が起きているのかを理解することに関心があります。研究で低レイヤ技術に取り組む一方、GoやReactを使ったWebアプリケーション開発、DockerやTerraformを使ったインフラ構築にも取り組んでいます。</p>
+            <dl class="about-info">
+              <div class="about-info-item">
+                <dt>生年月日</dt>
+                <!-- ここを自分の情報に変更 -->
+                <dd>2004年 1月 22日</dd>
+              </div>
+              <div class="about-info-item">
+                <dt>出身</dt>
+                <!-- ここを自分の情報に変更 -->
+                <dd>京都府</dd>
+              </div>
+              <div class="about-info-item">
+                <dt>所属</dt>
+                <!-- ここを自分の情報に変更 -->
+                <dd>京都産業大学大学院 先端情報学研究科</dd>
+              </div>
+              <div class="about-info-item">
+                <dt>専攻分野</dt>
+                <!-- ここを自分の情報に変更 -->
+                <dd>ディペンダブルシステム</dd>
+              </div>
+              <div class="about-info-item">
+                <dt>興味のある分野</dt>
+                <dd>
+                  <ul class="interest-list">
+                    <li>クラウドインフラ</li>
+                    <li>SRE</li>
+                    <li>OS・仮想化</li>
+                    <li>Unikernel</li>
+                    <li>Webアプリケーション開発</li>
+                  </ul>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <a href="#career" class="scroll-down" aria-label="Careerセクションへスクロール">
+        <svg class="scroll-down-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==================== Careerセクション ==================== -->
+    <section id="career" class="section career">
+      <div class="section-inner">
+        <h2 class="section-title">Career</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">2022年4月</span>
+              <!-- ここを自分の情報に変更 -->
+              <h3 class="timeline-title">京都産業大学 情報理工学部 情報理工学科 入学</h3>            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">2024年9月</span>
+              <!-- ここを自分の情報に変更 -->
+              <h3 class="timeline-title">京都産業大学 林原研究室配属</h3>
+              <span class="aboutline">Unikernelアプリケーションにおけるライブラリ依存関係の可視化とファイルアウォールの自動制御機構の実装を行う</span>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">2026年3月</span>
+              <!-- ここを自分の情報に変更：卒業・進学・インターン等の経歴があればここに追加 -->
+              <h3 class="timeline-title">京都産業大学 卒業</h3>
+            </div>
+          </li>
+           <li class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">2026年4月</span>
+              <!-- ここを自分の情報に変更：卒業・進学・インターン等の経歴があればここに追加 -->
+              <h3 class="timeline-title">京都産業大学大学院 先端情報学研究科 先端情報学専攻 入学</h3>
+              <span class="aboutline">Unikernelアプリケーションにおけるシステムコール監視機構の実装を行う</span>
+            </div>
+          </li>
+           <li class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">2028年3月</span>
+              <!-- ここを自分の情報に変更：卒業・進学・インターン等の経歴があればここに追加 -->
+              <h3 class="timeline-title">京都産業大学大学院 先端情報学研究科 先端情報学専攻  修士課程 修了予定</h3>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <a href="#research" class="scroll-down" aria-label="Researchセクションへスクロール">
+        <svg class="scroll-down-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==================== Researchセクション ==================== -->
+    <section id="research" class="section research">
+      <div class="section-inner">
+        <h2 class="section-title">Research</h2>
+        <div class="research-card">
+          <h3 class="research-theme">Unikernelアプリケーション向けファイアウォール自動設定機構の実装</h3>
+          <p class="research-desc"> Unikernelアプリケーションが利用するライブラリの依存関係を解析・可視化し、その構成情報をもとにファイアウォールルールを自動生成する研究に取り組んでいます。アプリケーションの動作に必要な通信のみを許可することで、設定作業の負担や設定ミスを減らし、安全な実行環境の実現を目指しています。</p>
+          <ul class="tag-list" aria-label="研究キーワード">
+            <li class="tag">Unikernel</li>
+            <li class="tag">Unikraft</li>
+            <li class="tag">Iptables</li>
+            <li class="tag">QEMU</li>
+            <li class="tag">KVM</li>
+            <li class="tag">Graphviz</li>
+            <li class="tag">Nmap</li>
+          </ul>
+          <a href="docs/2025%E5%B9%B4%E5%BA%A6_%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%83%A8_%E5%8D%92%E6%A5%AD%E8%AB%96%E6%96%87_%E6%9D%BE%E5%B1%B1.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">研究の詳細を見る</a>
+        </div>
+      </div>
+      <div class="section-inner">
+        <div class="research-card">
+          <h3 class="research-theme">Unikernelアプリケーションに対するVMIベースのシステムコール監視</h3>
+          <p class="research-desc">軽量な実行環境であるUnikernelを対象に、Virtual Machine Introspection（VMI）を利用して、仮想マシンの外部からシステムコールを監視する研究に取り組んでいます。QEMU/KVMを改修し、ゲストOS内部に監視用エージェントを導入せずに、実行時の振る舞いを取得する仕組みを開発しています。</p>
+          <ul class="tag-list" aria-label="研究キーワード">
+            <li class="tag">Unikernel</li>
+            <li class="tag">Unikraft</li>
+            <li class="tag">VMI</li>
+            <li class="tag">QEMU</li>
+            <li class="tag">KVM</li>
+            <li class="tag">System Call</li>
+            <li class="tag">Observability</li>
+          </ul>
+          <button class="btn btn-outline btn-disabled" disabled aria-disabled="true">準備中</button>
+        </div>
+      </div>
+      <a href="#projects" class="scroll-down" aria-label="Projectsセクションへスクロール">
+        <svg class="scroll-down-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==================== Projectsセクション ==================== -->
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <div class="coming-soon">
+          <p class="coming-soon-text">準備中です。近日公開予定です。</p>
+        </div>
+
+        <!-- 準備が整い次第、以下のプロジェクトカードを .coming-soon の代わりに表示する
+        <div class="project-grid">
+
+          Project: LinkVault -->
+          <!-- <article class="project-card">
+            <div class="project-card-body">
+              <h3 class="project-title">LinkVault</h3>
+              <p class="project-desc">ブックマークをタグ付きで保存・検索・管理できるWebアプリケーション</p>
+
+              <h4 class="project-subheading">使用技術</h4>
+              <ul class="tag-list">
+                <li class="tag">Go</li>
+                <li class="tag">React</li>
+                <li class="tag">TypeScript</li>
+                <li class="tag">PostgreSQL</li>
+                <li class="tag">Docker</li>
+                <li class="tag">GitHub Actions</li>
+              </ul>
+
+              <h4 class="project-subheading">主な機能</h4>
+              <ul class="feature-list">
+                <li>ブックマークの登録・編集・削除</li>
+                <li>タグによる分類</li>
+                <li>キーワード検索</li>
+                <li>Chrome拡張機能からの登録</li>
+              </ul>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/your-username/linkvault" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" class="btn btn-secondary">詳細を見る</a>
+            </div>
+          </article>
+
+        </div> -->
+       
+      </div>
+      <a href="#skills" class="scroll-down" aria-label="Skillsセクションへスクロール">
+        <svg class="scroll-down-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==================== Skillsセクション ==================== -->
+    <section id="skills" class="section skills">
+      <div class="section-inner">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-category-title">Frontend</h3>
+            <ul class="tag-list">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">TypeScript</li>
+              <li class="tag">React</li>
+              <li class="tag">Next.js</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">Backend</h3>
+            <ul class="tag-list">
+              <li class="tag">C</li>
+              <li class="tag">Java</li>
+              <li class="tag">Python</li>
+              <li class="tag">Rust</li>
+              <li class="tag">PHP</li>
+              <li class="tag">Go</li>
+              <li class="tag">REST API</li>
+              <li class="tag">Node.js</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">Database</h3>
+            <ul class="tag-list">
+              <li class="tag">MySQL</li>
+              <li class="tag">SQLite</li>
+              <li class="tag">PostgreSQL</li>
+              <li class="tag">Maria DB</li>
+              <li class="tag">Redis</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">Infra/OS</h3>
+            <ul class="tag-list">
+              <li class="tag">Linux</li>
+              <li class="tag">Ubuntu</li>
+              <li class="tag">Nginx</li>
+              <li class="tag">Apache</li>
+              <li class="tag">Docker</li>
+              <li class="tag">Kubernetes</li>
+              <li class="tag">AWS</li>
+              <li class="tag">さくらのクラウド</li>
+              <li class="tag">Terraform</li>
+              <li class="tag">GitHub</li>
+              <li class="tag">GitHub Actions</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">Research</h3>
+            <ul class="tag-list">
+              <li class="tag">QEMU</li>
+              <li class="tag">KVM</li>
+              <li class="tag">Unikraft</li>
+              <li class="tag">VMI</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#contact" class="scroll-down" aria-label="Contactセクションへスクロール">
+        <svg class="scroll-down-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==================== Contactセクション ==================== -->
+    <section id="contact" class="section contact">
+      <div class="section-inner">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-text">技術や研究について、お気軽にご連絡ください。</p>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <!-- GitHubリンクの仮リンク：ここを自分の情報に変更 -->
+            <a href="https://github.com/matsu0122-png" class="contact-link" target="_blank" rel="noopener noreferrer">github.com/matsu0122-png</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-label">Email</span>
+            <!-- メールアドレスの仮設定：ここを自分の情報に変更 -->
+            <a href="mailto:matsuyamashin419@gmail.com" class="contact-link">matsuyamashin419@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== フッター ==================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <!-- ここを自分の情報に変更 -->
+      <p class="footer-copyright">&copy; 2026 Shin Matsuyama. All rights reserved.</p>
+      <div class="footer-links">
+        <!-- GitHubリンクの仮リンク：ここを自分の情報に変更 -->
+        <button class="footer-top-btn" id="topBtn" aria-label="ページ上部へ戻る">▲ Top</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
